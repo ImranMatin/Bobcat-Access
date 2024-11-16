@@ -46,3 +46,109 @@ button:hover {
     font-size: 12px;
     line-height: 1.5;
 }
+
+.jumbotron{
+  background-color:white;
+  color:black;
+  font-weight: regular;
+}
+
+
+/* Styling for header */
+header {
+    background-color: #335145;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: arial, verdana, helvetica, sans-serif;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-weight: regular;
+}
+
+h2 {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-weight: regular;
+}
+
+h3 {
+    font-family: arial, verdana, helvetica, sans-serif;
+	font-weight: regular;
+}
+
+p {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-weight: normal;
+}
+
+input {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-weight: regular;
+}
+
+label {
+	font-family: arial, verdana, helvetica, sans-serif;
+	font-weight: regular;
+}
+
+.parabold{
+    font-weight: bold;
+}
+/* Map container styling */
+#map {
+    height: 80vh;
+    margin: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #335145;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Legend styling */
+.info.legend {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+#contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
