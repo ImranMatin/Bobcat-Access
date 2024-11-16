@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background: #0073e6;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.menu-bar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu-bar li {
+    margin: 0 1rem;
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.hero button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #005bb5;
+}
+
+.map-section {
+    padding: 2rem;
+    text-align: center;
+    background: #eef;
+}
+
+#map-placeholder {
+    height: 300px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contact-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-section form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.contact-section label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+.contact-section input, 
+.contact-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section button {
+    background: #0073e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section button:hover {
+    background: #005bb5;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0073e6;
+    color: white;
+}
